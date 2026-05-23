@@ -3,7 +3,7 @@
 Rewrite ALL FOUR from scratch:
 
 1. Ansible: Install nginx
-2. Terraform: EC2 (choose any Pathnex instance)
+2. Terraform: EC2 (choose any Prodgrad instance)
 3. Kubernetes: Deployment 2 replicas
 4. Shell: Print date + uptime
 
@@ -21,12 +21,12 @@ pipeline {
         string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Deployment Environment')
     }
     environment {
-        INSTITUTE_NAME = "Pathnex"
+        INSTITUTE_NAME = "Prodgrad"
     }
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Pathnex/sample-java-app.git'
+                git url: 'https://github.com/Prodgrad/sample-java-app.git'
             }
         }
         stage('Deploy') {
@@ -44,7 +44,7 @@ stages:
   - deploy
 
 variables:
-  INSTITUTE_NAME: "Pathnex"
+  INSTITUTE_NAME: "Prodgrad"
   ENVIRONMENT: "dev"
 
 deploy:
