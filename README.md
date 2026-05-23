@@ -1,6 +1,6 @@
 # DevOps_Hands_On_Practice_L1
 This repo provides hands-on, foundational code to accelerate your DevOps skills with industry-standard tools like Ansible, Terraform, Kubernetes, Jenkins, and GitLab. Inside, you’ll find practical examples and configurations to automate infrastructure, container management, and streamline CI/CD pipelines, designed to enhance your DevOps skills.
-# Prodgrad 30-Day DevOps Hands-On Challenge(New joiners can start working on it from the day they learn GIT)
+# ProdgradPartners (PGP) 30-Day DevOps Hands-On Challenge (You can start working on it from the day they learn GIT)
 This repository contains a complete 30-day practical DevOps learning challenge.
 Each day includes:
 
